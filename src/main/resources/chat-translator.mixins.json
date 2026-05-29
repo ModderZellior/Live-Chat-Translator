@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.zellior.chattranslator.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"ClientPlayNetworkHandlerMixin",
+		"ClientPlayerEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

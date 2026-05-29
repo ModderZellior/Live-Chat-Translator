@@ -1,0 +1,29 @@
+pluginManagement {
+	repositories {
+		maven {
+			name = "Fabric"
+			url = "https://maven.fabricmc.net/"
+		}
+		maven {
+			name = "Legacy Fabric"
+			url = "https://maven.legacyfabric.net/"
+		}
+		gradlePluginPortal()
+	}
+}
+
+dependencyResolutionManagement {
+	repositories {
+		maven {
+			name = "Fabric"
+			url = "https://maven.fabricmc.net/"
+		}
+		maven {
+			name = "Legacy Fabric"
+			url = "https://maven.legacyfabric.net/"
+		}
+		mavenCentral()
+	}
+}
+
+rootProject.name = "chat-translator-1.8.9"
