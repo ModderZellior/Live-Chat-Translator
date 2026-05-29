@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "chat-translator",
+	"version": "${version}",
+	"name": "Universal Live Chat Translator",
+	"description": "Client-side live translation for multiplayer chat messages and outgoing translated chat.",
+	"authors": [
+		"Zellior"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/chat-translator/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.zellior.chattranslator.ChatTranslatorClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.0",
+		"minecraft": "26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
+
