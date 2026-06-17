@@ -12,6 +12,7 @@ Each supported Minecraft version is kept on its own branch:
 | Fabric | 26.1 | `fabric/26.1` |
 | Fabric | 26.1.1 | `fabric/26.1.1` |
 | Fabric | 26.1.2 | `fabric/26.1.2` |
+| Fabric | 26.2 | `fabric/26.2` |
 | Legacy Fabric | 1.8.9 | `legacy-fabric/1.8.9` |
 
 ## Features
